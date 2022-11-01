@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AfisareFilme {
+public class AfisareFilme extends LoggingPage {
     private JList lstAfisare;
     private JButton afiseazaButton;
     private JPanel afisPanel;
@@ -14,6 +14,11 @@ public class AfisareFilme {
             @Override
             public void actionPerformed(ActionEvent e) {
                 refreshList();
+                String s = "S-au afisat filmele";
+                adaugaLog(s);
+
+
+
             }
         });
     }

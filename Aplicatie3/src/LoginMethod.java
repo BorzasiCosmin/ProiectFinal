@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class LoginMethod {
+public class LoginMethod extends LoggingPage{
     private JTextField tfUsername;
     private JPasswordField pfPassword;
     private JButton btnLogin;
@@ -17,9 +17,19 @@ public class LoginMethod {
                 String user = tfUsername.getText();
                 String pass = pfPassword.getText();
                 if(user.equals(AdminUser.getUtilizator()) && pass.equals(AdminUser.getPassword()))
-                   MainPage.start(frame);
+                {
+                    MainPage.start(frame);
+                    String s = "S-a autentificat cu succes : "+user;
+                    adaugaLog(s);
+
+                }
                 else
+                {
                     JOptionPane.showMessageDialog(null,"Utilizator sau parola gresita");
+
+
+                }
+
             }
         });
     }

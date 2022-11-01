@@ -34,6 +34,12 @@ public class MainPage extends AdaugareFilm{
                 CumparaBilete.run();
             }
         });
+        btnLogging.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                LoggingPage.start();
+            }
+        });
     }
 
 
