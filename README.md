@@ -31,6 +31,10 @@ Aceasta este fereastra principala din care putem alege ce optiune dorim
 
 Aceasta este fereastra in care putem introduce un anume film si butonul adauga filmul intr-un array de tipul film
 
+![image](https://user-images.githubusercontent.com/114818226/199451481-c070abc0-9639-457a-b76d-4e751bf1695d.png)
+
+Aceasta este fereastra in care apar toate actiunile facute in program
+
 
 
 ![image](https://user-images.githubusercontent.com/115069588/199300326-19630be8-a1e8-4c3f-9e0a-efcb20c63893.png)
